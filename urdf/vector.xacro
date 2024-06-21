@@ -74,10 +74,10 @@
   <link name="full_lift">
     <visual>
       <geometry>
-        <mesh filename="package://anki_description/meshes/vector_lift.dae"/>
+        <mesh filename="package://anki_description/meshes/vector_lift.dae" />
       </geometry>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin rpy="0 0 0" xyz="0.062 0.0 -0.015"/>
       <geometry>
         <box size="0.0075 0.05 0.025"/>
@@ -90,7 +90,7 @@
       </geometry>
       <mass value="0.05"/>
       <xacro:box_inertia m="0.05" x="0.0075" y="0.05" z="0.025"/>
-    </inertial>
+    </inertial> -->
   </link>
   <gazebo reference="full_lift">
     <mu1 value="200.0"/>
